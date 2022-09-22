@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 250px;
+  color: #494949;
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 70px;
+  color: #5d7177;
+}
