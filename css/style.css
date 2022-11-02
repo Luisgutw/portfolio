@@ -200,6 +200,18 @@ header nav ul li:hover {
   font-size: 25px;
 }
 
+#about .fa-github, #about .fa-linkedin {
+  margin-top: 0px;
+  margin-right: 1%;
+  font-size: 32px;
+  opacity: 0.7;
+  margin-bottom: 3%;
+}
+
+#about .fa-github:hover, #about .fa-linkedin:hover {
+  opacity: 1;
+}
+
 #about #about_text {
   width: 700px;
   margin: 0 auto 0 auto;
@@ -375,6 +387,10 @@ h6 {
   width: 280px;
   height: 170px;
   border-radius: 5px;
+}
+
+#projects li:nth-child(3n + 1) {
+  clear: left;
 }
 
 #projects img:hover {
